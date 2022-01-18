@@ -7,12 +7,11 @@
 
 int main(int argc, const char* argv[])
 {
-
     if (RegisterHotKey(
             NULL,
             1,
-            MOD_ALT | MOD_NOREPEAT,
-            0x42))  //0x42 is 'b'
+            MOD_NOREPEAT,
+            0x7B))
     {
         std::cout << "hotkey registered!" << std::endl;
     }
